@@ -1,0 +1,31 @@
+*{
+  padding: 0;
+  margin: 0;
+  -webkit-overflow-scrolling: touch;
+}
+*, *:after, *:before{
+  box-sizing: border-box;
+}
+html, body{
+  height: 100%;
+  line-height: 1;
+  font-size: 14px;
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  max-width: 750px;
+  overflow-x: hidden;
+  margin: 0 auto;
+}
+ul, ol, li {
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+input, button, textarea{
+  outline: none;
+  border: none;
+}
+img{
+  border: none;
+  outline: none;
+}

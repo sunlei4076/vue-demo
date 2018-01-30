@@ -1,0 +1,62 @@
+{
+  "code": 0,
+  "message": "success",
+  "data": [
+    {
+      "name": "",
+      "change": "",
+      "type": "nothing",
+      "id": 1001,
+      "picture": "http://127.0.0.1:4000/static/img/lucky-wheel/give_up.png"
+    },
+    {
+      "name": "easejoy_bean",
+      "change": 10,
+      "id": 1002,
+      "type": "10-beans",
+      "picture": "http://127.0.0.1:4000/static/img/lucky-wheel/bean_ten.png"
+    },
+    {
+      "name": "point",
+      "change": 5,
+      "id": 1003,
+      "type": "5-point",
+      "picture": "http://127.0.0.1:4000/static/img/lucky-wheel/point_five.png"
+    },
+    {
+      "name": "easejoy_bean",
+      "change": 5,
+      "id": 1004,
+      "type": "5-beans",
+      "picture": "http://127.0.0.1:4000/static/img/lucky-wheel/bean_five.png"
+    },
+    {
+      "name": "point",
+      "change": 10,
+      "id": 1005,
+      "type": "10-point",
+      "picture": "http://127.0.0.1:4000/static/img/lucky-wheel/point_ten.png"
+    },
+    {
+      "name": "easejoy_bean",
+      "change": 2,
+      "id": 1006,
+      "type": "2-beans",
+      "picture": "http://127.0.0.1:4000/static/img/lucky-wheel/bean_two.png"
+    },
+    {
+      "name": "easejoy_bean",
+      "change": 500,
+      "id": 1007,
+      "type": "most-beans",
+      "picture": "http://127.0.0.1:4000/static/img/lucky-wheel/bean_500.png"
+    },
+    {
+      "name": "easejoy_bean",
+      "change": 1,
+      "id": 1008,
+      "type": "1-bean",
+      "picture": "http://127.0.0.1:4000/static/img/lucky-wheel/bean_one.png"
+    }
+  ]
+}

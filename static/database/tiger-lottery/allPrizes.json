@@ -1,0 +1,21 @@
+{
+  "code": 0,
+  "message": "success",
+  "data": [
+    {
+      "name": "笔记本一台",
+      "id": 1001,
+      "picture": "http://127.0.0.1:4000/static/img/tiger-lottery/tiger_awards_1.png"
+    },
+    {
+      "name": "未中奖",
+      "id": 1002,
+      "picture": "http://127.0.0.1:4000/static/img/tiger-lottery/tiger_awards_2.png"
+    },
+    {
+      "name": "摄像机一台",
+      "id": 1003,
+      "picture": "http://127.0.0.1:4000/static/img/tiger-lottery/tiger_awards_3.png"
+    }
+  ]
+}

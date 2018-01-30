@@ -1,0 +1,9 @@
+{
+  "code": 0,
+  "message": "success",
+   "data": {
+      "name": "未中奖",
+      "id": 1002,
+      "picture": "http://127.0.0.1:4000/static/img/tiger-lottery/tiger_awards_2.png"
+    }
+}

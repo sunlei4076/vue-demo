@@ -1,0 +1,9 @@
+{
+  "code": 0,
+  "message": "success",
+   "data":     {
+      "name": "PPTV KING7S",
+      "id": 1002,
+      "picture": "http://127.0.0.1:4000/static/img/lattice-lottery/gift2.png"
+    }
+}

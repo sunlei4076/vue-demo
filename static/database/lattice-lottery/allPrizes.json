@@ -1,0 +1,46 @@
+{
+  "code": 0,
+  "message": "success",
+  "data": [
+    {
+      "name": "iphone6（16GB）",
+      "id": 1001,
+      "picture": "http://127.0.0.1:4000/static/img/lattice-lottery/gift1.jpg"
+    },
+    {
+      "name": "PPTV KING7S 3D影音手机",
+      "id": 1002,
+      "picture": "http://127.0.0.1:4000/static/img/lattice-lottery/gift2.jpg"
+    },
+    {
+      "name": "PPBOX 小黑",
+      "id": 1003,
+      "picture": "http://127.0.0.1:4000/static/img/lattice-lottery/gift3.jpg"
+    },
+    {
+      "name": "侏罗纪T恤",
+      "id": 1004,
+      "picture": "http://127.0.0.1:4000/static/img/lattice-lottery/gift4.jpg"
+    },
+    {
+      "name": "乐高模型",
+      "id": 1005,
+      "picture": "http://127.0.0.1:4000/static/img/lattice-lottery/gift5.jpg"
+    },
+    {
+      "name": "速度与激情T恤",
+      "id": 1006,
+      "picture": "http://127.0.0.1:4000/static/img/lattice-lottery/gift6.jpg"
+    },
+    {
+      "name": "PPTV一年会员",
+      "id": 1007,
+      "picture": "http://127.0.0.1:4000/static/img/lattice-lottery/gift7.jpg"
+    },
+    {
+      "name": "家电券100元（满1999元使用）",
+      "id": 1008,
+      "picture": "http://127.0.0.1:4000/static/img/lattice-lottery/gift8.jpg"
+    }
+  ]
+}
