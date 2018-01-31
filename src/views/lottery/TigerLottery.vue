@@ -82,73 +82,43 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
-  .tiger-lottery-wrapper{
-    height: 100%;
-    background: rgb(252, 207, 133) url("~@/assets/images/color_pillar.png") no-repeat center bottom;
+.tiger-lottery-wrapper{
+  height: 100%;
+  background: rgb(252, 207, 133) url("~@/assets/images/color_pillar.png") no-repeat center bottom;
+  background-size: 100%;
+  padding-top: 1rem;
+  .tiger-lottery{
+    position: relative;
+    width: 100%;
+    height: 4.32rem;
+    margin: 0.4rem auto;
+    background: url("~@/assets/images/tiger-lottery/tiger_bg.png") no-repeat;
     background-size: 100%;
-    padding-top: 1rem;
-    .tiger-lottery{
-      position: relative;
-      width: 100%;
-      height: 4.32rem;
-      margin: 0.4rem auto;
-      background: url("~@/assets/images/tiger-lottery/tiger_bg.png") no-repeat;
-      background-size: 100%;
-      .item{
-        position: absolute;
-        display: block;
-        top: 0.9rem;
-        left: 1.65rem;
-        width: 1.25rem;
-        height: 1.56rem;
-        overflow: hidden;
-        &:nth-child(2) {
-          left: 3.125rem;
-        }
-        &:nth-child(3) {
-          left: 4.6rem;
-        }
+    .item{
+      position: absolute;
+      display: block;
+      top: 0.9rem;
+      left: 1.65rem;
+      width: 1.25rem;
+      height: 1.56rem;
+      overflow: hidden;
+      &:nth-child(2) {
+        left: 3.125rem;
       }
-      .toggle{
-        position: absolute;
-        display: block;
-        bottom: 0.18rem;
-        left: 1.4rem;
-        width: 4.71rem;
-        height: 0.6rem;
-        border-radius: 0.08rem;
-        background-color: transparent;
+      &:nth-child(3) {
+        left: 4.6rem;
       }
     }
-  }
-  .fx-bounce {
-    animation-name: bounce;
-    transform-origin: center bottom
-  }
-@keyframes fx-roll {
-  0% {
-    transform: translate3d(0, 0, 0);
-  }
-  100% {
-    transform: translate3d(0, -100%, 0);
+    .toggle{
+      position: absolute;
+      display: block;
+      bottom: 0.18rem;
+      left: 1.4rem;
+      width: 4.71rem;
+      height: 0.6rem;
+      border-radius: 0.08rem;
+      background-color: transparent;
+    }
   }
 }
-@keyframes bounce {
-    0%, 20%, 53%, 80%, 100% {
-     animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-     transform: translate3d(0, 0, 0);
-    }
-    40%, 43% {
-     animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
-     transform: translate3d(0, -30px, 0);
-    }
-    70% {
-     animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
-     transform: translate3d(0, -15px, 0);
-    }
-    90% {
-      transform: translate3d(0, -4px, 0);
-    }
-}
-
 </style>

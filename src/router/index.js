@@ -12,7 +12,7 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'Lottery',
+      name: 'Home',
       component: Lottery
     },
     {

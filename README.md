@@ -4,8 +4,11 @@
 
 demo 
 
-`bash
+```bash
   git clone git@github.com:dione2016/vue-demo.git
+
   npm i
-  npm run dev
-`
+
+  npm run dev or npm start
+
+```

@@ -69,19 +69,6 @@ export default {
 </script>
 <style lang="scss" scoped>
 .item{
-  position: absolute;
-  display: block;
-  top: 0.9rem;
-  left: 1.65rem;
-  width: 1.25rem;
-  height: 1.56rem;
-  overflow: hidden;
-  &:nth-child(2) {
-    left: 3.125rem;
-  }
-  &:nth-child(3) {
-    left: 4.6rem;
-  }
   .roller{
     position: relative;
     &.fx-roll{
@@ -107,12 +94,33 @@ export default {
     }
   }
 }
+.fx-bounce {
+  animation-name: bounce;
+  transform-origin: center bottom
+}
 @keyframes fx-roll {
   0% {
     transform: translate3d(0, 0, 0);
   }
   100% {
     transform: translate3d(0, -100%, 0);
+  }
+}
+@keyframes bounce {
+  0%, 20%, 53%, 80%, 100% {
+   animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+   transform: translate3d(0, 0, 0);
+  }
+  40%, 43% {
+   animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+   transform: translate3d(0, -30px, 0);
+  }
+  70% {
+   animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+   transform: translate3d(0, -15px, 0);
+  }
+  90% {
+    transform: translate3d(0, -4px, 0);
   }
 }
 </style>
